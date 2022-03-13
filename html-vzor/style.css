@@ -110,7 +110,7 @@ h1, h2, h3, h4, h5, h6 {
 	border-bottom: 1px solid #ba6e46;
 }
 
-.dresses .product__image {
+.dresses .productImage {
 	aspect-ratio: 3 / 4;
 }
 
@@ -132,7 +132,7 @@ h1, h2, h3, h4, h5, h6 {
 	border-bottom: 1px solid #ba6e46;
 }
 
-.shoes .product__image {
+.shoes .productImage {
 	aspect-ratio: 4 / 3;
 }
 
@@ -155,7 +155,7 @@ h1, h2, h3, h4, h5, h6 {
 	border-bottom: 1px solid #ba6e46;
 }
 
-.accessories .product__image {
+.accessories .productImage {
 	aspect-ratio: 1 / 1;
 }
 
@@ -171,27 +171,27 @@ h1, h2, h3, h4, h5, h6 {
 	flex-direction: column;
 }
 
-.product__image {
+.productImage {
 	display: block;
 	width: 100%;
 	object-fit: cover;
 }
 
-.product__content {
+.productContent {
 	flex: 1;
 	padding: 20px;
 	background: #fffffc;
 }
 
-.product__name {
+.productName {
 	margin: 0 0 20px 0;
 }
 
-.product__description {
+.productDescription {
 	font-size: 15px;
 }
 
-.product__price {
+.productPrice {
 	font-weight: 700;
 	margin-bottom: 0;
 }

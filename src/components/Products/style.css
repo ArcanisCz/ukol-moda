@@ -1,0 +1,32 @@
+
+.product {
+	border: 1px solid #dcd7d0;
+	display: flex;
+	flex-direction: column;
+}
+
+.productImage {
+	display: block;
+	width: 100%;
+	object-fit: cover;
+}
+
+.productContent {
+	flex: 1;
+	padding: 20px;
+	background: #fffffc;
+}
+
+.productName {
+	margin: 0 0 20px 0;
+}
+
+.productDescription {
+	font-size: 15px;
+}
+
+.productPrice {
+	font-weight: 700;
+	margin-bottom: 0;
+}
+
