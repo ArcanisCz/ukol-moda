@@ -15,7 +15,6 @@ const App = () => (
     <Shoes />
     <Accessories />
     <Footer year={2022} author="Jirinka"></Footer>
-
   </div>
 );
 

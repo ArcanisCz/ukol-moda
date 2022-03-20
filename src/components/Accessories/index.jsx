@@ -4,7 +4,7 @@ import Product from '../Product';
 
 const Accessories = () => {
     return (
-        <section class="accessories">
+        <section className="accessories">
 			<h2>Doplňky</h2>
 			<div class="products">
 

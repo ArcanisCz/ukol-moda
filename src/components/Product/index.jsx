@@ -3,7 +3,6 @@ import "./style.css";
 
 const Product = ({name, description, price, image}) => {
     return (
-            
 				<div className="product">
 					<img className="product__image" src={`assets/${image}`} alt={name}/>
 					<div className="product__content">
@@ -12,7 +11,6 @@ const Product = ({name, description, price, image}) => {
 						<p className="product__price">{price} Kč</p>
 				    </div>
 		        </div>
-
     )
 };
 

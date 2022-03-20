@@ -3,9 +3,9 @@ import Product from '../Product';
 
 const Shoes = () => {
     return (
-<section class="shoes"> 
+<section className="shoes"> 
 			<h2>Boty</h2>
-			<div class="products">
+			<div className="products">
                 <Product name="Běhací tenisky"
                 description="Růžová s kontrastními šedými a bílými detaily? Veliká paráda! Tyhle tenisky jsou další srdcová záležitost."
                 price={1790}
